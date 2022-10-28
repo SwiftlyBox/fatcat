@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import founder from "../assets/founder.jpg";
+import christopher from "../assets/christopher.jpg";
 import nono from "../assets/nono.jpg";
 import mom from "../assets/mom.jpg";
 
@@ -23,7 +23,7 @@ const Team = () => {
             <div className="p-6">
               <Image
                 className="object-cover object-center w-full mb-8 lg:h-48 md:h-36 rounded-xl"
-                src={founder}
+                src={christopher}
                 alt="Founder"
               />
 
@@ -43,7 +43,7 @@ const Team = () => {
               <Image
                 className="object-cover object-center w-full mb-8 lg:h-48 md:h-36 rounded-xl"
                 src={nono}
-                alt="blog"
+                alt="Nothando"
               />
 
               <h1 className="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-neutral-600 lg:text-3xl">
@@ -61,7 +61,7 @@ const Team = () => {
               <Image
                 className="object-cover object-center w-full mb-8 lg:h-48 md:h-36 rounded-xl"
                 src={mom}
-                alt="blog"
+                alt="Loveness Mahwire"
               />
 
               <h1 className="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-neutral-600 lg:text-3xl">
