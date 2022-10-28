@@ -1,9 +1,17 @@
-import React from 'react';
-
+import React from "react";
+import Head from "next/head";
 
 const Privacy = () => {
   return (
     <>
+      <Head>
+        <title> Privacy Policy| SwiftlyBox </title>
+        <meta
+          name="description"
+          content="SwiftlyBox Privacy Policy| SwiftlyBox."
+        />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <h2>
         <p>Terms and Conditions</p>
       </h2>
@@ -324,5 +332,5 @@ const Privacy = () => {
       </p>
     </>
   );
-}
+};
 export default Privacy;

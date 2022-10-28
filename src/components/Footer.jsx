@@ -6,25 +6,25 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <>
-      <footer class="bg-white" aria-labelledby="footer-heading">
-        <div class="px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:px-16">
-          <div class="xl:grid xl:grid-cols-3 xl:gap-8">
-            <div class="text-white xl:col-span-1">
-              <div class="text-lg font-bold tracking-tighter text-black transition duration-500 ease-in-out transform tracking-relaxed lg:pr-8">
+      <footer className="bg-white" aria-labelledby="footer-heading">
+        <div className="px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:px-16">
+          <div className="xl:grid xl:grid-cols-3 xl:gap-8">
+            <div className="text-white xl:col-span-1">
+              <div className="text-lg font-bold tracking-tighter text-black transition duration-500 ease-in-out transform tracking-relaxed lg:pr-8">
                 {" "}
                 SwiftlyBox{" "}
               </div>
-              <p class="w-1/2 mt-2 text-sm text-gray-500">
+              <p className="w-1/2 mt-2 text-sm text-gray-500">
                 The delivery platform for you
               </p>
             </div>
-            <div class="grid grid-cols-2 gap-8 mt-12 xl:mt-0 xl:col-span-2">
-              <div class="md:grid md:grid-cols-2 md:gap-8">
+            <div className="grid grid-cols-2 gap-8 mt-12 xl:mt-0 xl:col-span-2">
+              <div className="md:grid md:grid-cols-2 md:gap-8">
                 <div>
-                  <h3 class="text-sm font-bold tracking-wider text-blue-500 uppercase">
+                  <h3 className="text-sm font-bold tracking-wider text-black uppercase">
                     Get to know us
                   </h3>
-                  <ul role="list" class="mt-4 space-y-2">
+                  <ul role="list" className="mt-4 space-y-2 " style={{color: 'black'}}>
                     <li>
                       <Link href="/aboutus">About Us</Link>
                     </li>
@@ -35,13 +35,20 @@ const Footer = () => {
                     <li>
                       <Link href="/SwiftlyDriver">Become A Partner</Link>
                     </li>
+                    <Link href="https://tally.so/r/3q4x49">
+                      <a className="navbar-item">Contact</a>
+                    </Link>
+                    <hr className="navbar-divider" />
+                    <Link href="https://tally.so/r/wbZZ1E">
+                      <a className="navbar-item">Report an issue</a>
+                    </Link>
                   </ul>
                 </div>
-                <div class="mt-12 md:mt-0">
-                  <h3 class="text-sm font-bold tracking-wider text-blue-500 uppercase">
+                <div className="mt-12 md:mt-0">
+                  <h3 className="text-sm font-bold tracking-wider text-black uppercase">
                     Make Money With Us
                   </h3>
-                  <ul role="list" class="mt-4 space-y-2">
+                  <ul role="list" className="mt-4 space-y-2">
                     <li>
                       <Link href="/onBoard">Become A Partner</Link>
                     </li>
@@ -51,12 +58,12 @@ const Footer = () => {
                   </ul>
                 </div>
               </div>
-              <div class="md:grid md:grid-cols-2 md:gap-8">
+              <div className="md:grid md:grid-cols-2 md:gap-8">
                 <div>
-                  <h3 class="text-sm font-bold tracking-wider text-blue-500 uppercase">
+                  <h3 className="text-sm font-bold tracking-wider text-black uppercase">
                     Legal
                   </h3>
-                  <ul role="list" class="mt-4 space-y-2">
+                  <ul role="list" className="mt-4 space-y-2">
                     <li>
                       <Link href="/Privacy"> Privacy Policy </Link>
                     </li>
@@ -65,11 +72,11 @@ const Footer = () => {
                     </li>
                   </ul>
                 </div>
-                <div class="mt-12 md:mt-0">
-                  <h3 class="text-sm font-bold tracking-wider text-blue-500 uppercase">
+                <div className="mt-12 md:mt-0">
+                  <h3 className="text-sm font-bold tracking-wider text-black uppercase">
                     Socials
                   </h3>
-                  <ul role="list" class="mt-4 space-y-2">
+                  <ul role="list" className="mt-4 space-y-2">
                     <li>
                       <a href="https://www.crunchbase.com/organization/swiftlybox">
                         CrunchBase
@@ -103,9 +110,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div class="px-4 py-12 mx-auto bg-gray-50 max-w-7xl sm:px-6 lg:px-16">
-          <div class="flex flex-wrap items-baseline">
-            <span class="mt-2 text-sm font-bold text-black">
+        <div className="px-4 py-12 mx-auto bg-gray-50 max-w-7xl sm:px-6 lg:px-16">
+          <div className="flex flex-wrap items-baseline">
+            <span className="mt-2 text-sm font-bold text-black">
               2022 SwiftlyBox Technologies Inc. - All rights reserved
             </span>
           </div>
@@ -115,4 +122,5 @@ const Footer = () => {
   );
 };
 
+// 
 export default Footer;

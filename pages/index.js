@@ -11,11 +11,21 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <>
-    
+      <Head>
+        <title>
+          {" "}
+          SwiftlyBox Food Delivery & TakeOut From Restaurants Near You
+        </title>
+        <meta
+          name="description"
+          content="Delivery & takeout from the best local restaurants. Breakfast, lunch, dinner and more, delivered safely to your door. No-contact delivery."
+        />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <HomeHero />
-      <Card/>
-      <AppHero/>
-      <Hero/>
+      <Card />
+      <AppHero />
+      <Hero />
     </>
   );
 }

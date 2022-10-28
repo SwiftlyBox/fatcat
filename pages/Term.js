@@ -1,8 +1,21 @@
 import React from "react";
+import Head from "next/head";
+
 
 const Term = () => {
   return (
     <>
+      <Head>
+        <title>
+          {" "}
+          Terms and Conditions |  SwiftlyBox{" "}
+        </title>
+        <meta
+          name="description"
+          content="SwiftlyBox Terms and Conditions."
+        />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <h2>
         <p>Terms and Conditions</p>
       </h2>
@@ -318,8 +331,9 @@ const Term = () => {
 
       <p>
         As long as the website and the information and services on the website
-        are provided , we will not be liable for injury of Swiftly
-        Drivers nor customers but will take the precautions to prevent that for our customers.
+        are provided , we will not be liable for injury of Swiftly Drivers nor
+        customers but will take the precautions to prevent that for our
+        customers.
       </p>
     </>
   );

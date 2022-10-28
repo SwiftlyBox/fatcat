@@ -3,93 +3,82 @@ import Tabs from "react-bootstrap/Tabs";
 import Tab from "react-bootstrap/Tab";
 import Image from "next/image";
 import banner from "../assets/banner.jpg";
-import del from "../assets/del.jpg";
+import canva from "../assets/canva.jpg";
 
 import data from "../assets/data.jpg";
 
 const TabsComponent = () => {
   return (
     <>
-      <div
-        style={{
-          width: 800,
-          padding: 30,
-          alignItems: "center",
-          justifyContent: "center",
-          display: "grid",
-          margin: "auto",
-          marginTop: 150,
-        }}
-      >
+      <section>
         <h4 style={{ textAlign: "center", fontSize: 32, fontWeight: "900" }}>
           Delivering more
         </h4>
-        <p>
+        <p style={{ textAlign: "center", fontSize: 16, fontWeight: "300" }}>
           When you think of SwiftlyBox, you think of delivery — but the
           SwiftlyBox Merchant is delivering more.
         </p>
-        <Tabs defaultActiveKey="second">
-          <Tab
-            eventKey="first"
-            title="Grow online"
-            style={{ textAlign: "left" }}
-          >
-            <h2 style={{ fontSize: 19 }}> Grow Online With SwiftlyBox</h2>
-            Introduce your store to new customers in your area interested in
-            delivery, pickup, and more.
-            <Image
-              src={banner}
-              alt="Grow Online With SwiftlyBox"
-              width="300"
-              height="300"
-              style={{
-                alignItems: "flex-end",
-                justifyContent: "flex-end",
-                display: "grid",
-                borderRadius: 9,
-              }}
-            />
-          </Tab>
-          <Tab eventKey="second" title="Attract new customers">
-            <h1 style={{ fontSize: 19 }}>Attract new customers</h1>
-            With SwiftlyBox you can expand your restaurant to nearby communities
-            while you stay at your primary location.This will increase order
-            volume for your business.With the help our data scrapper we will
-            advise you on which location to expand to.
-            <br />
-            <Image
-              src={data}
-              alt="Attract New Customers"
-              width="300"
-              height="300"
-              style={{
-                alignItems: "flex-end",
-                justifyContent: "flex-end",
-                display: "grid",
-                borderRadius: 9,
-              }}
-            />
-          </Tab>
-          <Tab eventKey="third" title="Start your restaurant">
-            Our Home Kitchen is a solution we had for entrepreneurs who wants to
-            start a restaurant but {`don't`} have the capital to do so.Start
-            your restaurant journey with us by your side.Start cooking in your
-            own home kitchen and deliver your delicious food .<br />
-            <Image
-              src={del}
-              alt="Home Kitchen"
-              width="300"
-              height="300"
-              style={{
-                alignItems: "flex-end",
-                justifyContent: "flex-end",
-                display: "grid",
-                borderRadius: 9,
-              }}
-            />
-          </Tab>
-        </Tabs>
-      </div>
+        <div className="relative items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-24 max-w-7xl">
+          <div className="grid w-full grid-cols-1 gap-6 mx-auto lg:grid-cols-3">
+            <div className="p-6">
+              <Image
+                className="object-cover object-center w-full mb-8 lg:h-48 md:h-36 rounded-xl"
+                src={canva}
+                alt="Home Kitchen"
+              />
+
+              <h1 className="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-neutral-600 lg:text-3xl">
+                Start your restaurant
+              </h1>
+              <p className="mx-auto text-base leading-relaxed text-gray-500">
+                Our Home Kitchen is a solution we had for entrepreneurs who
+                wants to start a restaurant but {`don't`} have the capital to do
+                so.Start your restaurant journey with us by your side.Start
+                cooking in your own home kitchen and deliver your delicious food
+                .
+              </p>
+
+              <div className="mt-4"></div>
+            </div>
+            <div className="p-6">
+              <Image
+                className="object-cover object-center w-full mb-8 lg:h-48 md:h-36 rounded-xl"
+                src={banner}
+                alt="Grow Online With SwiftlyBox"
+              />
+
+              <h1 className="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-neutral-600 lg:text-3xl">
+                Grow Online With SwiftlyBox
+              </h1>
+              <p className="mx-auto text-base leading-relaxed text-gray-500">
+                Introduce your store to new customers in your area interested in
+                delivery, pickup, and more.
+              </p>
+
+              <div className="mt-4"></div>
+            </div>
+            <div className="p-6">
+              <Image
+                className="object-cover object-center w-full mb-8 lg:h-48 md:h-36 rounded-xl"
+                src={data}
+                alt="Attract New Customers"
+              />
+
+              <h1 className="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-neutral-600 lg:text-3xl">
+                Attract new customers
+              </h1>
+              <p className="mx-auto text-base leading-relaxed text-gray-500">
+                With SwiftlyBox you can expand your restaurant to nearby
+                communities while you stay at your primary location.This will
+                increase order volume for your business.With the help our data
+                scrapper we will advise you on which location to expand to.
+              </p>
+
+              <div className="mt-4"></div>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 };

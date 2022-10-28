@@ -38,7 +38,7 @@ const NavBar = () => {
             <Link href="/SwiftlyDriver">
               <a className="navbar-item">Become a SwiftlyDriver</a>
             </Link>
-            <Link href="/">
+            <Link href="/aboutus">
               <a className="navbar-item">About Us</a>
             </Link>
             <div className="navbar-item has-dropdown is-hoverable">
