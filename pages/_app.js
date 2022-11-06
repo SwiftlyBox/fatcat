@@ -3,12 +3,20 @@ import "bulma/css/bulma.css";
 import NavBar from "../src/components/NavBar";
 import Footer from "../src/components/Footer";
 import "bootstrap/dist/css/bootstrap.css";
+import Head from "next/head";
 
 import SEO from "@bradgarropy/next-seo";
+
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
+      <Head>
+        <meta
+          name="description"
+          content="Delivery & takeout from the best local restaurants. Breakfast, lunch, dinner and more, delivered safely to your door. No-contact delivery."
+        />
+      </Head>
       <NavBar />
       <SEO
         title="SwiftlyBox Food Delivery & TakeOut From Restaurants Near You"
@@ -30,7 +38,7 @@ function MyApp({ Component, pageProps }) {
           type: "website",
         }}
         twitter={{
-          image: "/delivery.jpg",
+          image: "/delivery.png",
           site: "@SwiftlyBox",
           card: "summary",
         }}

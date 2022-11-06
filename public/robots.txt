@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://swiftlybox.com
+
+# Sitemaps
+Sitemap: https://swiftlybox.com/sitemap.xml
