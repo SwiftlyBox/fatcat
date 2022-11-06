@@ -8,7 +8,7 @@ const Term = () => {
       <Head>
         <title>
           {" "}
-          Terms and Conditions |  SwiftlyBox{" "}
+          Terms And Conditions |  SwiftlyBox{" "}
         </title>
         <meta
           name="description"
