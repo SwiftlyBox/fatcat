@@ -23,8 +23,6 @@ const NavBar = () => {
                 width="100"
                 height="100"
                 alt="SwiftlyBox Logo"
-                loading="lazy"
-                layout="responsive"
               />
             </Link>
           </a>

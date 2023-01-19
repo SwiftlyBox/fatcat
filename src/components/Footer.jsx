@@ -21,8 +21,7 @@ const Footer = () => {
                     className="max-w-full"
                     width="500"
                     height="500"
-                    loading="lazy"
-                    layout="responsive"
+                    
                   />
                 </a>
                 <p className="text-body-color mb-7 text-base">
