@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import AppHero from '../src/components/AppHero'
 import Card from '../src/components/Card'
 import Hero from '../src/components/Hero,'

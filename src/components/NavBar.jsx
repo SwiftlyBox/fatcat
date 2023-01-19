@@ -23,14 +23,14 @@ const NavBar = () => {
                 width="100"
                 height="100"
                 alt="SwiftlyBox Logo"
+                loading="lazy"
+                layout="responsive"
               />
             </Link>
           </a>
-
-          
         </div>
 
-        <div  className="navbar-menu" id="nav-links">
+        <div className="navbar-menu" id="nav-links">
           <div className="navbar-start">
             <Link href="/onBoard">
               <a className="navbar-item">Become a Partner</a>

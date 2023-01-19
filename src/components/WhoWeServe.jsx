@@ -33,6 +33,8 @@ const WhoWeServe = () => {
                       src={customer}
                       width="500"
                       height="500"
+                      loading="lazy"
+                      layout="responsive"
                     />
                   </div>
                 </div>

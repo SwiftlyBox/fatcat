@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react'
 import merchants from "../assets/merchants.jpg";
 import Image from "next/image";
 
-const Merchants = () => {
+const DriverTraining = () => {
   return (
     <>
       <section className="mb-40">
@@ -39,6 +39,6 @@ const Merchants = () => {
       </section>
     </>
   );
-};
+}
 
-export default Merchants;
+export default DriverTraining;

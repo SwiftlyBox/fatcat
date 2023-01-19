@@ -22,6 +22,8 @@ const AppHero = () => {
                       src={banner}
                       width="500"
                       height="500"
+                      loading="lazy"
+                      layout="responsive"
                     />
                   </div>
                 </div>

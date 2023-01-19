@@ -25,6 +25,8 @@ const TabsComponent = () => {
                 className="object-cover object-center w-full mb-8 lg:h-48 md:h-36 rounded-xl"
                 src={canva}
                 alt="Home Kitchen"
+                loading="lazy"
+                layout="responsive"
               />
 
               <h1 className="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-neutral-600 lg:text-3xl">
@@ -45,6 +47,8 @@ const TabsComponent = () => {
                 className="object-cover object-center w-full mb-8 lg:h-48 md:h-36 rounded-xl"
                 src={banner}
                 alt="Grow Online With SwiftlyBox"
+                loading="lazy"
+                layout="responsive"
               />
 
               <h1 className="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-neutral-600 lg:text-3xl">
@@ -62,6 +66,8 @@ const TabsComponent = () => {
                 className="object-cover object-center w-full mb-8 lg:h-48 md:h-36 rounded-xl"
                 src={data}
                 alt="Attract New Customers"
+                loading="lazy"
+                layout="responsive"
               />
 
               <h1 className="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-neutral-600 lg:text-3xl">

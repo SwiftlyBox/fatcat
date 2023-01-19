@@ -23,6 +23,8 @@ const SwiftlyDriverHero = () => {
                       src={delivery}
                       width="700"
                       height="700"
+                      loading="lazy"
+                      layout="responsive"
                     />
                   </div>
                 </div>
@@ -37,9 +39,7 @@ const SwiftlyDriverHero = () => {
                 <br /> Your Time.
                 <br /> {`You're`} the boss.
               </h1>
-              <p className="mb-8 text-base leading-relaxed text-left text-gray-500">
-                Refresh page and fill in the form below to become a Swiftly Driver .
-              </p>
+              <br />
               <div className="flex-col mt-0 lg:mt-6 max-w-7xl sm:flex">
                 <iframe
                   data-tally-src="https://tally.so/embed/mY5L9B?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"

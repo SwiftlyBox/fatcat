@@ -14,7 +14,9 @@ const SwiftlyGrid = () => {
               <Image
                 className="object-cover object-center w-full mb-8 lg:h-48 md:h-36 rounded-xl"
                 src={mockingbird}
-                alt="blog"
+                alt="Get Paid "
+                loading="lazy"
+                layout="responsive"
               />
 
               <h1 className="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-neutral-600 lg:text-3xl">
@@ -41,7 +43,9 @@ const SwiftlyGrid = () => {
               <Image
                 className="object-cover object-center w-full mb-8 lg:h-48 md:h-36 rounded-xl"
                 src={dontsing}
-                alt="blog"
+                alt="Be your own boss"
+                loading="lazy"
+                layout="responsive"
               />
 
               <h1 className="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-neutral-600 lg:text-3xl">
@@ -68,7 +72,7 @@ const SwiftlyGrid = () => {
               <Image
                 className="object-cover object-center w-full mb-8 lg:h-48 md:h-36 rounded-xl"
                 src={bird}
-                alt="blog"
+                alt="Earn money at your own time"
               />
 
               <h1 className="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-neutral-600 lg:text-3xl">
